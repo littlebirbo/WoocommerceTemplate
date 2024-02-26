@@ -1,0 +1,7 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/litt3vvo/public_html/wp-content/themes/DiviChildTheme
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp script.js $DEPLOYPATH
+    - /bin/cp functions.php $DEPLOYPATH
+    - /bin/cp screenshot.jpg $DEPLOYPATH
